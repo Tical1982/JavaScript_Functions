@@ -55,9 +55,9 @@ console.log("The point lies on the y-axis.");
 
 function triangleType(a,b,c) {
 if (a+b <= c || a+c <= b || b+c <= a){
-  return "Invalid triangle" ; 
+  return "Invalid triangle"; 
 }
-if ( a === b &7 b === c) {
+if ( a === b &&  b === c) {
 return "Equilateral triangle"; 
 } else if (a === b || a === c || b === c) { 
   return "Isosceles triangle"; 
